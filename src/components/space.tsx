@@ -19,13 +19,12 @@ const SpaceComponent = () => {
     }, []);
 
 
-    console.log("===================data ", data)
 
     return (
         <div className="max-w-screen-xl mt-20 mx-auto px-4 xl:px-0">
             <div className="flex justify-between items-center">
                 <div>
-                    <h2 className="text-4xl font-bold">Our Space Overview</h2>
+                    <h2 className="text-2xl lg:text-4xl font-bold">Our Space <span className="hidden lg:block">Overview</span></h2>
                 </div>
                 <div className="lg:hidden">
                     <img className="object-contain" alt={"arrow"} src={`${process.env.REACT_APP_LOCAL_HOST}/assets/images/arrow.svg`} />

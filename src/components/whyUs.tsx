@@ -41,7 +41,7 @@ const WhyUs = () => {
         <div className="max-w-screen-xl mx-auto mt-10 px-4 xl:px-0">
             <div className="flex justify-between items-center">
                 <div>
-                    <h2 className="text-4xl font-bold">Why Choose us?</h2>
+                    <h2 className="text-2xl lg:text-4xl font-bold">Why Choose us?</h2>
                 </div>
                 <div className="lg:hidden">
                     <img className="object-contain" alt={"arrow"} src={`${process.env.REACT_APP_LOCAL_HOST}/assets/images/arrow.svg`} />
