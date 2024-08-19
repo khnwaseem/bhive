@@ -186,5 +186,43 @@
         },
         "manager_id": null,
         "can_edit": false
+    },
+    {
+        "id": "298a504d-c5cd-4456-a132-e3a8f18a4a43",
+        "name": "27th Main, HSR",
+        "address": "27th Main Rd, Bengaluru, Karnataka, India",
+        "latitude": 12.9120089,
+        "longitude": 77.6518831,
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "postal_code": "560102",
+        "description": null,
+        "rules": null,
+        "amenities": [
+            "Conferencing facilities",
+            "Parking"
+        ],
+        "images": [
+            "static_assets/4d85410baa074351aa948fc2c5da50d9.jpg"
+        ],
+        "working_hours_start": "00:00",
+        "working_hours_end": "23:59",
+        "facilities": null,
+        "is_active": true,
+        "is_day_pass_enabled": true,
+        "day_pass_price": 249,
+        "day_pass_discounts_percentage": {
+            "1": {
+                "value": 0,
+                "message": ""
+            },
+            "10": {
+                "value": 20,
+                "message": "Pay for 8 Days, Get 2 Days Complimentary"
+            }
+        },
+        "manager_id": null,
+        "can_edit": false
     }
 ]
